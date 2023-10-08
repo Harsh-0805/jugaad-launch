@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import jugaad from "./assets/jugaad_logo.png";
+import ecellLogo from "./assets/ecell-white-img.png";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
           <div className="h-full bg-gradient-to-b from-[rgba(0,0,0,1)] via-[rgba(0,0,0,0.7)_55.96%] to-[rgba(0,0,0,0.2)]">
             <div className="w-full h-screen flex justify-center overflow-hidden">
               <div className="w-full max-w-6xl 2xl:max-w-[95%] px-6 py-16">
-                <div className="flex flex-col gap-3 items-center justify-center text-4xl xs:text-5xl lg:text-6xl font-semibold">
-                  <img src={jugaad} alt="Jugaad Logo" className="w-1/2" />
+                <div className="flex flex-row gap-3 items-center justify-center text-4xl xs:text-5xl lg:text-6xl font-semibold">
+                  <img src={ecellLogo} alt="Ecell" className="w-1/3" />
+                  <img src={jugaad} alt="Jugaad" className="w-1/3" />
                 </div>
 
                 <span
