@@ -24,8 +24,8 @@ function App() {
                   <span> Soon!!</span>
                 </span>
                 <span className="flex mt-16 flex-col lg:flex-row gap-2 justify-center text-3xl xl:text-9xl text-white text-center w-full col-span-3 uppercase tracking-wider">
-                  <span>Paisa kamaya nahi</span>
-                  <span>Banaya jata hai</span>
+                  <span>"Paisa kamaya nahi,</span>
+                  <span>Banaya jata hai"</span>
                 </span>
               </div>
             </div>
