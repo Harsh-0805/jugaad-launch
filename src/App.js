@@ -18,7 +18,7 @@ function App() {
 
                 <span
                   id="L"
-                  className="flex mt-16 flex-col blink lg:flex-row gap-5 justify-center text-6xl xl:text-9xl text-white text-center w-full col-span-3 uppercase tracking-wider"
+                  className="flex font-extrabold mt-16 flex-col zoom-in-out-box lg:flex-row gap-5 justify-center text-6xl xl:text-9xl text-white text-center w-full col-span-3 uppercase tracking-wider"
                 >
                   <span>Coming</span>
                   <span> Soon!!</span>
